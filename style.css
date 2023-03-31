@@ -1,0 +1,115 @@
+body{
+    color: #40514e;
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(139, 196, 243);
+}
+h1{
+    margin: 0;
+    font-family: 'Delicious Handrawn', cursive;;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+.cloud-image{
+    width: 400px;
+}
+.mountain-image{
+    width: 400px
+}
+
+.display-pic{
+    width: 200px;
+    margin-top: 50px
+    
+    ;
+}
+hr{       /*to make a horizental line to dotted line*/
+    border: dotted #b0b8b8 7px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto 50px auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2; /*to create space between 2 lines*/
+    font-family: 'Merriweather', serif;
+}
+.img-1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.img-2{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
+
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message{
+    width: 30%;
+    margin: 40px auto 60px auto;
+    font-family: 'Merriweather', serif;
+}
+.btn {       /*auto generate button from css3buttongenerator.com*/
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 34px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .bottom-container{
+    margin-top: 30px;
+    background-color: #7bb4e9;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  p{
+    font-family: 'Merriweather', serif;
+  }
+  a{
+    color: #a9e7f1;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;  /*to remove underline from facebook or whatsapp link */
+  }
+  a:hover{    /*to hover the link of facebook or instagram*/
+    color: #EAF6F6;
+  }
+  .copyright{
+    color: #EAF6F6; 
+    padding: 20px 10px 0px 10px ;
+    
+}
